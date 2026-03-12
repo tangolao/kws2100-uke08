@@ -1,0 +1,36 @@
+{
+  "name": "kws2100-uke08",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc --noEmit && prettier --check .",
+    "prepare": "husky",
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tangolao/kws2100-uke08.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tangolao/kws2100-uke08/issues"
+  },
+  "homepage": "https://github.com/tangolao/kws2100-uke08#readme",
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "husky": "^9.1.7",
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3",
+    "vite": "^8.0.0"
+  },
+  "dependencies": {
+    "ol": "^10.8.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "type": "module"
+}
