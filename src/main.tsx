@@ -16,6 +16,7 @@ const kommuneLayer = new VectorLayer({
   source: new VectorSource({
     url: "/geojson/kommuner.geojson",
     format: new GeoJSON(),
+    //sd fs
   }),
 });
 const grunnskoleLayer = new VectorLayer();
